@@ -267,14 +267,405 @@ F 3 "~" H 4700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D?
+L Device:D_Small D1
 U 1 1 609D9A10
 P 3500 2600
-F 0 "D?" V 3546 2530 50  0000 R CNN
-F 1 "D_Small" V 3455 2530 50  0000 R CNN
+F 0 "D1" V 3546 2530 50  0000 R CNN
+F 1 "diode" V 3455 2530 50  0000 R CNN
 F 2 "" V 3500 2600 50  0001 C CNN
 F 3 "~" V 3500 2600 50  0001 C CNN
 	1    3500 2600
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 609CE375
+P 4000 2600
+F 0 "D2" V 4046 2530 50  0000 R CNN
+F 1 "diode" V 3955 2530 50  0000 R CNN
+F 2 "" V 4000 2600 50  0001 C CNN
+F 3 "~" V 4000 2600 50  0001 C CNN
+	1    4000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 609CE788
+P 4500 2600
+F 0 "D3" V 4546 2530 50  0000 R CNN
+F 1 "diode" V 4455 2530 50  0000 R CNN
+F 2 "" V 4500 2600 50  0001 C CNN
+F 3 "~" V 4500 2600 50  0001 C CNN
+	1    4500 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 609CEB24
+P 5000 2600
+F 0 "D4" V 5046 2530 50  0000 R CNN
+F 1 "diode" V 4955 2530 50  0000 R CNN
+F 2 "" V 5000 2600 50  0001 C CNN
+F 3 "~" V 5000 2600 50  0001 C CNN
+	1    5000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 609CEF16
+P 5500 2600
+F 0 "D5" V 5546 2530 50  0000 R CNN
+F 1 "diode" V 5455 2530 50  0000 R CNN
+F 2 "" V 5500 2600 50  0001 C CNN
+F 3 "~" V 5500 2600 50  0001 C CNN
+	1    5500 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 609CF368
+P 6000 3100
+F 0 "D11" V 6046 3030 50  0000 R CNN
+F 1 "diode" V 5955 3030 50  0000 R CNN
+F 2 "" V 6000 3100 50  0001 C CNN
+F 3 "~" V 6000 3100 50  0001 C CNN
+	1    6000 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 609CF73E
+P 5500 3100
+F 0 "D10" V 5546 3030 50  0000 R CNN
+F 1 "diode" V 5455 3030 50  0000 R CNN
+F 2 "" V 5500 3100 50  0001 C CNN
+F 3 "~" V 5500 3100 50  0001 C CNN
+	1    5500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 609CFBB0
+P 5000 3100
+F 0 "D9" V 5046 3030 50  0000 R CNN
+F 1 "diode" V 4955 3030 50  0000 R CNN
+F 2 "" V 5000 3100 50  0001 C CNN
+F 3 "~" V 5000 3100 50  0001 C CNN
+	1    5000 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 609D023F
+P 4500 3100
+F 0 "D8" V 4546 3030 50  0000 R CNN
+F 1 "diode" V 4455 3030 50  0000 R CNN
+F 2 "" V 4500 3100 50  0001 C CNN
+F 3 "~" V 4500 3100 50  0001 C CNN
+	1    4500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 609D0627
+P 4000 3100
+F 0 "D7" V 4046 3030 50  0000 R CNN
+F 1 "diode" V 3955 3030 50  0000 R CNN
+F 2 "" V 4000 3100 50  0001 C CNN
+F 3 "~" V 4000 3100 50  0001 C CNN
+	1    4000 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 609D0C11
+P 3500 3100
+F 0 "D6" V 3546 3030 50  0000 R CNN
+F 1 "diode" V 3455 3030 50  0000 R CNN
+F 2 "" V 3500 3100 50  0001 C CNN
+F 3 "~" V 3500 3100 50  0001 C CNN
+	1    3500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 609D1089
+P 3500 3600
+F 0 "D12" V 3546 3530 50  0000 R CNN
+F 1 "diode" V 3455 3530 50  0000 R CNN
+F 2 "" V 3500 3600 50  0001 C CNN
+F 3 "~" V 3500 3600 50  0001 C CNN
+	1    3500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 609D154D
+P 4000 3600
+F 0 "D13" V 4046 3530 50  0000 R CNN
+F 1 "diode" V 3955 3530 50  0000 R CNN
+F 2 "" V 4000 3600 50  0001 C CNN
+F 3 "~" V 4000 3600 50  0001 C CNN
+	1    4000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 609D1F34
+P 4500 3600
+F 0 "D14" V 4546 3530 50  0000 R CNN
+F 1 "diode" V 4455 3530 50  0000 R CNN
+F 2 "" V 4500 3600 50  0001 C CNN
+F 3 "~" V 4500 3600 50  0001 C CNN
+	1    4500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 609D235B
+P 5000 3600
+F 0 "D15" V 5046 3530 50  0000 R CNN
+F 1 "diode" V 4955 3530 50  0000 R CNN
+F 2 "" V 5000 3600 50  0001 C CNN
+F 3 "~" V 5000 3600 50  0001 C CNN
+	1    5000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 609D278D
+P 5500 3600
+F 0 "D16" V 5546 3530 50  0000 R CNN
+F 1 "diode" V 5455 3530 50  0000 R CNN
+F 2 "" V 5500 3600 50  0001 C CNN
+F 3 "~" V 5500 3600 50  0001 C CNN
+	1    5500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 609D2C29
+P 6000 3600
+F 0 "D17" V 6046 3530 50  0000 R CNN
+F 1 "diode" V 5955 3530 50  0000 R CNN
+F 2 "" V 6000 3600 50  0001 C CNN
+F 3 "~" V 6000 3600 50  0001 C CNN
+	1    6000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 609D3234
+P 3500 4100
+F 0 "D18" V 3546 4030 50  0000 R CNN
+F 1 "diode" V 3455 4030 50  0000 R CNN
+F 2 "" V 3500 4100 50  0001 C CNN
+F 3 "~" V 3500 4100 50  0001 C CNN
+	1    3500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 609D3B16
+P 4000 4100
+F 0 "D19" V 4046 4030 50  0000 R CNN
+F 1 "diode" V 3955 4030 50  0000 R CNN
+F 2 "" V 4000 4100 50  0001 C CNN
+F 3 "~" V 4000 4100 50  0001 C CNN
+	1    4000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 609D3FA1
+P 4500 4100
+F 0 "D20" V 4546 4030 50  0000 R CNN
+F 1 "diode" V 4455 4030 50  0000 R CNN
+F 2 "" V 4500 4100 50  0001 C CNN
+F 3 "~" V 4500 4100 50  0001 C CNN
+	1    4500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 609D4568
+P 3500 4600
+F 0 "D21" V 3546 4530 50  0000 R CNN
+F 1 "diode" V 3455 4530 50  0000 R CNN
+F 2 "" V 3500 4600 50  0001 C CNN
+F 3 "~" V 3500 4600 50  0001 C CNN
+	1    3500 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 609D4B1C
+P 4000 4600
+F 0 "D22" V 4046 4530 50  0000 R CNN
+F 1 "diode" V 3955 4530 50  0000 R CNN
+F 2 "" V 4000 4600 50  0001 C CNN
+F 3 "~" V 4000 4600 50  0001 C CNN
+	1    4000 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 609D4FD7
+P 4500 4600
+F 0 "D23" V 4546 4530 50  0000 R CNN
+F 1 "diode" V 4455 4530 50  0000 R CNN
+F 2 "" V 4500 4600 50  0001 C CNN
+F 3 "~" V 4500 4600 50  0001 C CNN
+	1    4500 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 2700 4000 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	4000 2700 4500 2700
+Connection ~ 4500 2700
+Wire Wire Line
+	4500 2700 5000 2700
+Connection ~ 5000 2700
+Wire Wire Line
+	5000 2700 5500 2700
+Connection ~ 5500 2700
+Wire Wire Line
+	5500 2700 6700 2700
+Wire Wire Line
+	3500 3200 4000 3200
+Connection ~ 4000 3200
+Wire Wire Line
+	4000 3200 4500 3200
+Connection ~ 4500 3200
+Wire Wire Line
+	4500 3200 5000 3200
+Connection ~ 5000 3200
+Wire Wire Line
+	5000 3200 5500 3200
+Connection ~ 5500 3200
+Wire Wire Line
+	5500 3200 6000 3200
+Connection ~ 6000 3200
+Wire Wire Line
+	6000 3200 6700 3200
+Wire Wire Line
+	3500 3700 4000 3700
+Connection ~ 4000 3700
+Wire Wire Line
+	4000 3700 4500 3700
+Connection ~ 4500 3700
+Wire Wire Line
+	4500 3700 5000 3700
+Connection ~ 5000 3700
+Wire Wire Line
+	5000 3700 5500 3700
+Connection ~ 5500 3700
+Wire Wire Line
+	5500 3700 6000 3700
+Connection ~ 6000 3700
+Wire Wire Line
+	6000 3700 6700 3700
+Wire Wire Line
+	3500 4200 4000 4200
+Connection ~ 4000 4200
+Wire Wire Line
+	4000 4200 4500 4200
+Connection ~ 4500 4200
+Wire Wire Line
+	4500 4200 6700 4200
+Wire Wire Line
+	3500 4700 4000 4700
+Connection ~ 4000 4700
+Wire Wire Line
+	4000 4700 4500 4700
+Connection ~ 4500 4700
+Wire Wire Line
+	4500 4700 6700 4700
+Wire Wire Line
+	3900 2500 3900 3000
+Connection ~ 3900 3000
+Wire Wire Line
+	3900 3000 3900 3500
+Connection ~ 3900 3500
+Wire Wire Line
+	3900 3500 3900 4000
+Connection ~ 3900 4000
+Wire Wire Line
+	3900 4000 3900 4500
+Connection ~ 3900 4500
+Wire Wire Line
+	3900 4500 3900 5200
+Wire Wire Line
+	4400 2500 4400 3000
+Connection ~ 4400 3000
+Wire Wire Line
+	4400 3000 4400 3500
+Connection ~ 4400 3500
+Wire Wire Line
+	4400 3500 4400 4000
+Connection ~ 4400 4000
+Wire Wire Line
+	4400 4000 4400 4500
+Connection ~ 4400 4500
+Wire Wire Line
+	4400 4500 4400 5200
+Wire Wire Line
+	4900 2500 4900 3000
+Connection ~ 4900 3000
+Wire Wire Line
+	4900 3000 4900 3500
+Connection ~ 4900 3500
+Wire Wire Line
+	4900 3500 4900 4000
+Connection ~ 4900 4000
+Wire Wire Line
+	4900 4000 4900 4500
+Connection ~ 4900 4500
+Wire Wire Line
+	4900 4500 4900 5200
+Wire Wire Line
+	5400 2500 5400 3000
+Connection ~ 5400 3000
+Wire Wire Line
+	5400 3000 5400 3500
+Connection ~ 5400 3500
+Wire Wire Line
+	5400 3500 5400 5200
+Wire Wire Line
+	5900 2500 5900 3000
+Connection ~ 5900 3000
+Wire Wire Line
+	5900 3000 5900 3500
+Connection ~ 5900 3500
+Wire Wire Line
+	5900 3500 5900 5200
+Wire Wire Line
+	6400 3000 6400 3500
+Connection ~ 6400 3500
+Wire Wire Line
+	6400 3500 6400 5200
+Text GLabel 6700 2700 2    50   Input ~ 0
+ROW0
+Text GLabel 6700 3200 2    50   Input ~ 0
+ROW1
+Text GLabel 6700 3700 2    50   Input ~ 0
+ROW2
+Text GLabel 6700 4200 2    50   Input ~ 0
+ROW3
+Text GLabel 6700 4700 2    50   Input ~ 0
+ROW4
+Text GLabel 3900 5200 3    50   Input ~ 0
+COL0
+Text GLabel 4400 5200 3    50   Input ~ 0
+COL1
+Text GLabel 4900 5200 3    50   Input ~ 0
+COL2
+Text GLabel 5400 5200 3    50   Input ~ 0
+COL3
+Text GLabel 5900 5200 3    50   Input ~ 0
+COL4
+Text GLabel 6400 5200 3    50   Input ~ 0
+COL5
 $EndSCHEMATC
