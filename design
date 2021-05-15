@@ -1,10 +1,6 @@
 reference design on paper
-
-right under main matrix
-no backspace/super
-space switchable with super
-
-very low profile
+no super
+low profile
 
          space               alt
      -------------      -------------
@@ -23,28 +19,29 @@ esc
 
 check most played games controls
 
-if alt/super used change controls or use autohotkey
+if alt/super used change controls, use hotkeys, or mouse buttons
 
 ######################################
 
-1
+v0.1
+split
+hot swappable
+left side convenient keymap
+
+v0.2+
+common words hotkey
 good for artists, gaming, writers, developers
 F3+b
 fn ctrl j = move left fast
 N key rollover
 anime design
-split
-common words hotkey
-hot swappable
-
-2
 program for customisable keys / layers?
 curve?
 wireless
 testing
 rubber/stand
 usb-c
-put thumb feature on side
+put thumb feature on side?
 
 ######################################
 
@@ -54,3 +51,8 @@ keys
 * colour scheme
 * try different filaments
 * choc
+
+######################################
+
+build kb with alain
+show keyboard to eve and people
