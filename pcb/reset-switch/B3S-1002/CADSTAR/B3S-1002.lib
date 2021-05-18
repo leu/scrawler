@@ -1,0 +1,18 @@
+.B3S-1002 :1 ;Yellow Button Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.55mm
+B3S1002
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO_1" 4="NO_2"
+*MXP 4
+*DFN B3S-1002
+~!Manufacturer_Name (Omron Electronics)
+~!Manufacturer_Part_Number (B3S-1002)
+~!Mouser Part Number (653-B3S-1002)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3S-1002/?qs=0w99tykdtPJgNGmIRoq%2F5Q%3D%3D)
+~!Arrow Part Number (B3S-1002)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/b3s1002/omron)
+~!Link Datasheet (https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3s.pdf)
+~!Height (4.3mm)
+~!3D_Model (B3S-1002)
+B3S-1002
+1.1!U 2.1!U 3.1!U 4.1!U 

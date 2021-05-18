@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name B3S-1002)(type Legacy)(uri ${KIPRJMOD}/reset-switch/B3S-1002/KiCad/B3S-1002.lib)(options "")(descr ""))
 )

@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B3S-1002"
+   (description "Yellow Button Tactile Switch, SPST-NO 50 mA @ 24 V dc 0.55mm")
+   (family "SWI")
+   (package "B3S1002")
+   (attribute "Datasheet Link" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3s.pdf")
+   (attribute "Geometry.Height" "4.3mm")
+   (attribute "Manufacturer_Name" "Omron Electronics")
+   (attribute "Manufacturer_Part_Number" "B3S-1002")
+   (attribute "Mouser Part Number" "653-B3S-1002")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3S-1002/?qs=0w99tykdtPJgNGmIRoq%2F5Q%3D%3D")
+   (attribute "Arrow Part Number" "B3S-1002")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/b3s1002/omron")
+   (gate
+    (symbol "B3S-1002")
+    (pin "COM_1" 1 PS)
+    (pin "COM_2" 2 PS)
+    (pin "NO_1" 3 PS)
+    (pin "NO_2" 4 PS)
+   )
+  )
+  (symbol "B3S-1002"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "B3S1002"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3 3.3)
+      (pt 3 3.3)
+      (pt 3 -3.3)
+      (pt -3 -3.3)
+      (pt -3 3.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 3.3)
+      (pt 3 3.3)
+      (pt 3 -3.3)
+      (pt -3 -3.3)
+      (pt -3 3.3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.75 4.3)
+      (pt 6.3 4.3)
+      (pt 6.3 -4.3)
+      (pt -5.75 -4.3)
+      (pt -5.75 4.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 5.2 -2.1)
+      (arc (pt 5.200 -2.100) (pt 5.100 -2.300) (pt 5.300 -2.100) (start -180.0) (sweep 90.0))
+      (pt 5.2 -2.3)
+      (arc (pt 5.200 -2.300) (pt 5.100 -2.300) (pt 5.300 -2.100) (start -180.0) (sweep -90.0))
+      (pt 5.2 -2.1))))
+   (leg 1 (pt 3.975 -2.250) (padstack 0))
+   (leg 2 (pt -3.975 -2.250) (padstack 0))
+   (leg 3 (pt 3.975 2.250) (padstack 0))
+   (leg 4 (pt -3.975 2.250) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.300 1.550 0 0 0.000))
+   )
+   (model "B3S-1002.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
