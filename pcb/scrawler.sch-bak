@@ -234,39 +234,6 @@ F 3 "~" H 3050 3960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW21
-U 1 1 609D3267
-P 2050 4260
-F 0 "SW21" H 2050 4545 50  0000 C CNN
-F 1 "switch" H 2050 4454 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_reversible" H 2050 4460 50  0001 C CNN
-F 3 "~" H 2050 4460 50  0001 C CNN
-	1    2050 4260
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW22
-U 1 1 609D326D
-P 2550 4260
-F 0 "SW22" H 2550 4545 50  0000 C CNN
-F 1 "switch" H 2550 4454 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_reversible" H 2550 4460 50  0001 C CNN
-F 3 "~" H 2550 4460 50  0001 C CNN
-	1    2550 4260
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW23
-U 1 1 609D3273
-P 3050 4260
-F 0 "SW23" H 3050 4545 50  0000 C CNN
-F 1 "switch" H 3050 4454 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_reversible" H 3050 4460 50  0001 C CNN
-F 3 "~" H 3050 4460 50  0001 C CNN
-	1    3050 4260
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D1
 U 1 1 609D9A10
 P 1850 2360
@@ -486,39 +453,6 @@ F 3 "~" V 2850 3860 50  0001 C CNN
 	1    2850 3860
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D_Small D21
-U 1 1 609D4568
-P 1850 4360
-F 0 "D21" V 1896 4290 50  0000 R CNN
-F 1 "diode" V 1805 4290 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" V 1850 4360 50  0001 C CNN
-F 3 "~" V 1850 4360 50  0001 C CNN
-	1    1850 4360
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D22
-U 1 1 609D4B1C
-P 2350 4360
-F 0 "D22" V 2396 4290 50  0000 R CNN
-F 1 "diode" V 2305 4290 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" V 2350 4360 50  0001 C CNN
-F 3 "~" V 2350 4360 50  0001 C CNN
-	1    2350 4360
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D23
-U 1 1 609D4FD7
-P 2850 4360
-F 0 "D23" V 2896 4290 50  0000 R CNN
-F 1 "diode" V 2805 4290 50  0000 R CNN
-F 2 "Keebio-Parts:Diode" V 2850 4360 50  0001 C CNN
-F 3 "~" V 2850 4360 50  0001 C CNN
-	1    2850 4360
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1850 2460 2350 2460
 Connection ~ 2350 2460
@@ -582,8 +516,6 @@ Wire Wire Line
 	2350 4460 2850 4460
 Connection ~ 2850 4460
 Wire Wire Line
-	2850 4460 5050 4460
-Wire Wire Line
 	2250 2260 2250 2760
 Connection ~ 2250 2760
 Wire Wire Line
@@ -591,12 +523,6 @@ Wire Wire Line
 Connection ~ 2250 3260
 Wire Wire Line
 	2250 3260 2250 3760
-Connection ~ 2250 3760
-Wire Wire Line
-	2250 3760 2250 4260
-Connection ~ 2250 4260
-Wire Wire Line
-	2250 4260 2250 4960
 Wire Wire Line
 	2750 2260 2750 2760
 Connection ~ 2750 2760
@@ -607,11 +533,6 @@ Wire Wire Line
 	2750 3260 2750 3760
 Connection ~ 2750 3760
 Wire Wire Line
-	2750 3760 2750 4260
-Connection ~ 2750 4260
-Wire Wire Line
-	2750 4260 2750 4960
-Wire Wire Line
 	3250 2260 3250 2760
 Connection ~ 3250 2760
 Wire Wire Line
@@ -621,18 +542,11 @@ Wire Wire Line
 	3250 3260 3250 3760
 Connection ~ 3250 3760
 Wire Wire Line
-	3250 3760 3250 4260
-Connection ~ 3250 4260
-Wire Wire Line
-	3250 4260 3250 4960
-Wire Wire Line
 	3750 2260 3750 2760
 Connection ~ 3750 2760
 Wire Wire Line
 	3750 2760 3750 3260
 Connection ~ 3750 3260
-Wire Wire Line
-	3750 3260 3750 4960
 Wire Wire Line
 	4250 2260 4250 2760
 Connection ~ 4250 2760
@@ -679,27 +593,27 @@ F 3 "" H 8225 4690 60  0001 C CNN
 	1    8075 4690
 	1    0    0    -1  
 $EndComp
-Text GLabel 8055 3630 2    50   Input ~ 0
+Text GLabel 6655 3130 0    50   Input ~ 0
 COL0
-Text GLabel 8055 3530 2    50   Input ~ 0
-COL1
-Text GLabel 8055 3430 2    50   Input ~ 0
-COL2
-Text GLabel 8055 3330 2    50   Input ~ 0
-COL3
-Text GLabel 8055 3230 2    50   Input ~ 0
-COL4
-Text GLabel 8055 3130 2    50   Input ~ 0
-COL5
 Text GLabel 6655 3230 0    50   Input ~ 0
-ROW0
+COL1
 Text GLabel 6655 3330 0    50   Input ~ 0
-ROW1
+COL2
 Text GLabel 6655 3430 0    50   Input ~ 0
-ROW2
+COL3
 Text GLabel 6655 3530 0    50   Input ~ 0
-ROW3
+COL4
 Text GLabel 6655 3630 0    50   Input ~ 0
+COL5
+Text GLabel 8055 3230 2    50   Input ~ 0
+ROW0
+Text GLabel 8055 3330 2    50   Input ~ 0
+ROW1
+Text GLabel 8055 3430 2    50   Input ~ 0
+ROW2
+Text GLabel 8055 3530 2    50   Input ~ 0
+ROW3
+Text GLabel 8055 3630 2    50   Input ~ 0
 ROW4
 Text GLabel 8055 2730 2    50   Input ~ 0
 RESET
@@ -849,6 +763,92 @@ F 1 "Hole" H 6936 5827 60  0000 L CNN
 F 2 "Keebio-Parts:MountingHole" H 6750 5880 60  0001 C CNN
 F 3 "" H 6750 5880 60  0001 C CNN
 	1    6750 5880
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 3760
+Wire Wire Line
+	3750 3260 3750 4960
+Wire Wire Line
+	2850 4460 5050 4460
+Wire Wire Line
+	3250 4260 3250 4960
+Connection ~ 3250 4260
+Wire Wire Line
+	3250 3760 3250 4260
+Wire Wire Line
+	2750 4260 2750 4960
+Connection ~ 2750 4260
+Wire Wire Line
+	2750 3760 2750 4260
+Wire Wire Line
+	2250 4260 2250 4960
+Connection ~ 2250 4260
+Wire Wire Line
+	2250 3760 2250 4260
+$Comp
+L Device:D_Small D23
+U 1 1 609D4FD7
+P 2850 4360
+F 0 "D23" V 2896 4290 50  0000 R CNN
+F 1 "diode" V 2805 4290 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 2850 4360 50  0001 C CNN
+F 3 "~" V 2850 4360 50  0001 C CNN
+	1    2850 4360
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 609D4B1C
+P 2350 4360
+F 0 "D22" V 2396 4290 50  0000 R CNN
+F 1 "diode" V 2305 4290 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 2350 4360 50  0001 C CNN
+F 3 "~" V 2350 4360 50  0001 C CNN
+	1    2350 4360
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 609D4568
+P 1850 4360
+F 0 "D21" V 1896 4290 50  0000 R CNN
+F 1 "diode" V 1805 4290 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 1850 4360 50  0001 C CNN
+F 3 "~" V 1850 4360 50  0001 C CNN
+	1    1850 4360
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 609D3273
+P 3050 4260
+F 0 "SW23" H 3050 4545 50  0000 C CNN
+F 1 "switch" H 3050 4454 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_reversible" H 3050 4460 50  0001 C CNN
+F 3 "~" H 3050 4460 50  0001 C CNN
+	1    3050 4260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 609D326D
+P 2550 4260
+F 0 "SW22" H 2550 4545 50  0000 C CNN
+F 1 "switch" H 2550 4454 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_reversible" H 2550 4460 50  0001 C CNN
+F 3 "~" H 2550 4460 50  0001 C CNN
+	1    2550 4260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 609D3267
+P 2050 4260
+F 0 "SW21" H 2050 4545 50  0000 C CNN
+F 1 "switch" H 2050 4454 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_reversible" H 2050 4460 50  0001 C CNN
+F 3 "~" H 2050 4460 50  0001 C CNN
+	1    2050 4260
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
