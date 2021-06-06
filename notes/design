@@ -1,6 +1,4 @@
-reference design on paper
-no super
-low profile
+no super key
 
      shift |  ctrl        fn1 | fn2
      -------------      -------------
@@ -8,51 +6,36 @@ low profile
 
 ######################################
 
+common game controls:
+
 ctrl
 shift
 space
 tab
 esc
-12 keys
+12+ other keys
 4 for move
-
-
-check most played games controls
-
-if alt/super used change controls, use hotkeys, or mouse buttons
 
 ######################################
 
 v0.1
 split
-hot swappable
-left side convenient keymap
+hot swappable - try different switches
 
 v0.2+
+not hot swappable
 common words hotkey
-good for artists, gaming, writers, developers
 F3+b
 fn ctrl j = move left fast
-N key rollover
-anime design
-program for customisable keys / layers?
-curve?
 wireless
-testing
 rubber/stand
 usb-c
-put thumb feature on side?
+thumb control keys on side?
+curve?
+program for customisable keys / layers?
 
 ######################################
 
 keys
-* blank
-* hexagonal
-* colour scheme
+* alternate black and grey
 * try different filaments
-* choc
-
-######################################
-
-build kb with alain
-show keyboard to eve and people
