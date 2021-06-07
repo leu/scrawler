@@ -1,15 +1,51 @@
-use cases:
-both hands:
+common game controls:
 
-left hand:
+ctrl
+shift
+space
+tab
+esc
+12+ other keys
+4 for move
 
+tap/hold certain keys
+f3+b
+least double presses
 
-have as many keys of one type on one hand or the other
-e.g. all numbers either accessible just with left or just with right
+############################################
 
-useful macros:
-git commit
-words
-creative
+control:
+ctrl+shift+space - layer 2
+no super key
 
-learn all useful shortcuts
+     shift |  ctrl        fn1 | fn2
+     -------------      -------------
+         space               alt
+
+layer 0:
+l_pinkie - tab, enter
+r_pinkie - backspace, delete
+esc
+a-z - 26
+
+shift:
+A-Z - 26
+
+layer 1:
+0-9 - 10
+symbols/punctuation
+
+layer 2:
+arrows
+f1 - f12
+mute
+printscreen
+
+layer 3:
+macros
+git
+switch bluetooth
+unique hotkey to open each application, search?
+new tab, switch tab, hotkey for elements such as youtube videos, web results
+select element in 8 directions, move directionally
+console, vim
