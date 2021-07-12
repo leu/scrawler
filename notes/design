@@ -2,20 +2,23 @@ v0.1
 split
 hot swappable - try different switches
 
-v0.2+
-not hot swappable
+v0.2
+no hot swap
+case, rubber stand, latch 2 sides together
+thumb control keys on side
+wireless, usb-c
+2 switches for rectangle
+
++
+curve
+program for customisable keys / layers
+optimal layout
 common words hotkey
 F3+b
 fn ctrl j = move left fast
-wireless
-rubber/stand
-usb-c
-thumb control keys on side?
-curve?
-program for customisable keys / layers?
+hot swap
 
-######################################
-
-keys
-* alternate black and grey
-* try different filaments
+goals:
+* comfortable, easy to understand/use
+* usable, enough keys for gaming
+* quiet
