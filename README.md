@@ -18,3 +18,13 @@ wireless
 ![prototype left side](notes/prototype/IMG_20210712_093350.jpg)
 ![prototype right side](notes/prototype/IMG_20210712_093407.jpg)
 ![prototype both sides](notes/prototype/IMG_20210712_093523.jpg)
+
+for side thumbs:
+
+more comfortable
+
+against side thumbs:
+
+harder to make case
+
+high profile (but mpu would fit)
