@@ -5,15 +5,21 @@ this repo contains all my notes, pcb designs, and cad files for 3d print for the
 
 to do:
 
-put MPU somewhere else
+low profile
 
-keep low profile
+do mega32u4 manually
 
-simple case
+cut down on pcb area
 
-thumbs on side
+smaller thumb keys
 
-wireless
+more stable keycap stems
+
+simple case, dont clasp
+
+fix delay/keys registering twice
+
+test it
 
 ![prototype left side](notes/prototype/IMG_20210712_093350.jpg)
 ![prototype right side](notes/prototype/IMG_20210712_093407.jpg)
@@ -28,3 +34,5 @@ against side thumbs:
 harder to make case
 
 high profile (but mpu would fit)
+
+more expensive
