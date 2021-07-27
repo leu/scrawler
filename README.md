@@ -9,9 +9,13 @@ low profile
 
 do mega32u4 manually
 
+usb-c
+
+place mpu, connectors after thumb keys
+
 cut down on pcb area
 
-smaller thumb keys
+smaller thumb keys, rotate
 
 more stable keycap stems
 
