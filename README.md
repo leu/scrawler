@@ -23,6 +23,8 @@ simple case, dont clasp
 
 fix delay/keys registering twice
 
+toggle gaming/qwerty layout where fn1 to type
+
 test it
 
 ![prototype left side](notes/prototype/IMG_20210712_093350.jpg)
