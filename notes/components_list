@@ -1,17 +1,29 @@
-pcb
+diodes                        x (plenty left)
+resistors                     x (plenty left 2.2k 10k)
 
-diodes
-2 TRRS jacks
-TRRS wire
-2 ProMicro
 M2 standoffs, m2 screws
+keycaps
 
-50 (46) kailh hotswap sockets
-kailh red choc switches
 
-current tester
-resistors
-reset switch
 
-3d print case
-3d print keycaps
+mechboards:
+2 x trrs jacks                £2.50
+trrs wire                     £5.00
+delivery                      £2.50
+
+aliexpress:
+48 x kailh red choc switches  £31.12 avg
+
+jlcpcb:
+2 x pcb                      ~£3.45
+delivery                      £2.15
+
+rs-online:
+2 x atmega16u4                £8.85
+2 x 16mhz crystal             £0.40
+usb-c connector               £0.96
+reset switch                  £0.554
+delivery                      £4.95
+
+plasticsheets:
+case                          £4.12

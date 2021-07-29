@@ -3,42 +3,6 @@ the scrawler is the name of this keyboard
 
 this repo contains all my notes, pcb designs, and cad files for 3d print for the scrawler
 
-to do:
-
-low profile
-
-do mega32u4 manually
-
-usb-c
-
-place mpu, connectors after thumb keys
-
-cut down on pcb area
-
-smaller thumb keys, rotate
-
-more stable keycap stems
-
-simple case, dont clasp
-
-fix delay/keys registering twice
-
-toggle gaming/qwerty layout where fn1 to type
-
-test it
-
-![prototype left side](notes/prototype/IMG_20210712_093350.jpg)
-![prototype right side](notes/prototype/IMG_20210712_093407.jpg)
-![prototype both sides](notes/prototype/IMG_20210712_093523.jpg)
-
-for side thumbs:
-
-more comfortable
-
-against side thumbs:
-
-harder to make case
-
-high profile (but mpu would fit)
-
-more expensive
+![prototype left side](notes/v0.1/IMG_20210712_093350.jpg)
+![prototype right side](notes/v0.1/IMG_20210712_093407.jpg)
+![prototype both sides](notes/v0.1/IMG_20210712_093523.jpg)

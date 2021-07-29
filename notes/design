@@ -4,15 +4,23 @@ hot swappable - try different switches
 
 v0.2
 no hot swap
-case, rubber stand, latch 2 sides together
-thumb control keys on side
-wireless, usb-c
+simple case
+do mega32u4 manually
+usb-c, rotate 45deg
+place mpu, connectors after thumb keys, connectors comfortable
 2 switches for rectangle
+fix debounce
+differentiate keycaps by feel
+cut down on pcb area
+smaller thumb keys, rotate
+more stable keycap stems
+toggle gaming/qwerty layout where fn1 to type
 
 +
-curve
+wireless
+thumb keys on side?
+latch 2 sides together, better case, rubber stand
 program for customisable keys / layers
-optimal layout
 common words hotkey
 F3+b
 fn ctrl j = move left fast
@@ -22,3 +30,17 @@ goals:
 * comfortable, easy to understand/use
 * usable, enough keys for gaming
 * quiet
+* low profile
+* tested
+* effective layout (comfortable, finger frequencies vs. min double tapping)
+
+
+for side thumbs:
+more comfortable
+
+against side thumbs:
+high profile
+more expensive
+harder to make case
+
+
