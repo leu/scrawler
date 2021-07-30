@@ -8,64 +8,13 @@ esc
 12+ other keys
 4 for move
 
-tap/hold certain keys
-f3+b
-least double presses
+========================================
 
-############################################
-
-control:
-ctrl+shift+space - layer 2
 no super key
 
      shift |  ctrl        fn1 | fn2
      -------------      -------------
          space               alt
-
-layer 0:
-l_pinkie - tab, enter
-r_pinkie - backspace, delete
-esc
-a-z - 26
-
-shift:
-A-Z - 26
-
-layer 1:
-0-9 - 10
-symbols/punctuation
-
-layer 2:
-arrows
-f1 - f12
-mute
-printscreen
-
-layer 3:
-macros
-git
-switch bluetooth
-unique hotkey to open each application, search?
-new tab, switch tab, hotkey for elements such as youtube videos, web results
-select element in 8 directions, move directionally
-console, vim
-
-
-find 2d matrix of letter pairs frequency
-common words one handed
-bias to programming
-
-character pair frequency
-
-key pair weights:
-different fingers
-different hand
-same height
-home row
-stronger fingers do more
-inwards to centre over outwards
-
-scrawler 2, 3 key press
 
 
 . 935
@@ -102,6 +51,7 @@ $ 37
 ` ?
 - flags
 0-9
++
 
 arrows
 home
@@ -111,18 +61,15 @@ pgup
 pgdown
 volume control
 
-higher accuracy
-more comfortable, low profile
-
 
 
 
 
 optimise against worst case with one finger
-use middle and index for some index finger keys
-good finger frequencies
 low double pressing
+middle and index fingers can cross over a lot - optimise for it
 
+consistently high keys in middle and index
 
 [a, e, g, i, k, o, q, t, u, w, x, y, z] 53.94
 [a, e, g, i, j, k, o, q, t, u, w, x, y] 54.01
@@ -143,71 +90,22 @@ low double pressing
 [a, e, g, i, j, k, o, p, t, u, x, y, z] 54.44
 [a, b, e, g, i, j, k, o, q, u, x, y, z] 44.62
 [a, b, e, h, i, j, k, o, q, u, x, y, z] 47.8
-
 [a, e, g, h, i, j, o, p, q, u, x, y, z] 49.79
-
-[[g, j], [a, q, x], [e, y, z, o], [p, u, h, i]]
-1.87 0.16    8.04 0.12 0.23    12.49 1.66 0.09 7.64    2.14 2.73 5.05 7.57    
-2.03 8.39 21.88 17.49 
--4.39
-313935659801
-
-[[b, c], [d, f, k], [s, t, v, w], [r, l, m, n]]
-1.48 3.34    3.82 2.4 0.54    6.51 9.28 1.05 1.68    6.28 4.07 2.51 7.23    
-4.82 6.76 18.52 20.09 
-1.57
-214954787634
-
-
-[a, e, g, h, i, j, k, o, p, u, x, y, z] 50.21
-2.03 8.81 21.88 17.49   4.82 6.34 18.52 20.09
-4.39                    1.57
-313752006951 + 208539695829 = 522291702780
-
-
-
-
 [a, e, g, h, i, j, k, o, p, q, u, x, y] 50.24
-2.03 8.7 22.02 17.49    4.82 7.27 17.56 20.09
--4.53                   2.53
-315952970535 + 208531894309 = 524484864844
+[a, e, g, h, i, k, o, p, q, u, x, y, z] 50.17
+[a, e, g, h, i, j, k, o, p, u, x, y, z] 50.21
+[a, e, g, i, j, k, o, p, q, t, u, y, z] 54.33
+[a, e, g, i, j, k, o, q, u, w, x, y, z] 44.82
+[a, e, g, h, i, j, k, o, p, q, u, y, z] 50.1
+[a, e, h, i, j, k, o, p, q, u, x, y, z] 48.46
+[a, e, g, i, j, k, o, p, q, u, x, y, z] 45.28
+[a, e, g, i, j, k, o, q, t, u, x, y, z] 52.42
+[a, e, g, h, i, j, k, o, q, u, x, y, z] 48.19
 
-[a, e, g, h, i, j, k, o, p, q, u, y, z] 50.1 x
-2.03 8.7 21.88 17.49    4.82 8.73 18.52 17.81
-4.39
-314277771025 + 208570591504 = 522848362529
-
-[a, e, g, h, i, k, o, p, q, u, x, y, z] 50.17 x
-2.41 8.39 21.88 17.49   4.82 6.38 18.52 20.09
-316467881835 + 208680318166 = 525148200001
-
-[a, e, g, i, j, k, o, p, q, t, u, y, z] 54.33 x
-
-
-[a, e, g, i, j, k, o, q, u, w, x, y, z] 44.82 x
-
-[a, e, h, i, j, k, o, p, q, u, x, y, z] 48.46 x
-0.7 8.39 21.88 17.49    4.82 8.09 18.52 20.09
-294323379351 + 247606446116 = 541929825467
-
-[a, e, g, i, j, k, o, p, q, u, x, y, z] 45.28 x
-2.03 2.8 17.57 22.88    4.82 8.73 18.52 22.63
-198646194775 + 348165847378 = 546812042153
-
-[a, e, g, i, j, k, o, q, t, u, x, y, z] 52.42 x
-2.03 8.7 17.24 24.45    4.82 4.87 15.24 22.63
-315862036903 + 211499092903 = 527361129806
-
-[a, e, g, h, i, j, k, o, q, u, x, y, z] 48.19 x
-2.03 8.7 20.45 17.01    4.82 8.36 18.52 20.09
-282843623105 + 238229713330 = 521073336435
+Process finished with exit code 0
 
 
 
-
-
-
-pzojkgahigahiuey_;u_eygahieyu_jok
 
 
 

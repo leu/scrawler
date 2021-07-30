@@ -9,12 +9,14 @@ do mega32u4 manually
 usb-c, rotate 45deg
 place mpu, connectors after thumb keys, connectors comfortable
 2 switches for rectangle
-fix debounce
-differentiate keycaps by feel
+differentiate home keys' feel
 cut down on pcb area
 smaller thumb keys, rotate
 more stable keycap stems
 toggle gaming/qwerty layout where fn1 to type
+curve hex keycaps
+black pcb
+remove 2 pinkie keys
 
 +
 wireless
