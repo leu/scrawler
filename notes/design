@@ -1,24 +1,29 @@
-v0.1
+===============prototype===============
 split
 hot swappable - try different switches
 
-v0.2
+=================v1.0==================
+new 1.0 layout
 no hot swap
-simple case
-do mega32u4 manually
-usb-c, rotate 45deg
-place mpu, connectors after thumb keys, connectors comfortable
+mega16u4 manually - check can fit program
+usb-c, trrs jack, mpu facing up in middle
 2 switches for rectangle
-differentiate home keys' feel
 cut down on pcb area
 smaller thumb keys, rotate
-more stable keycap stems
-toggle gaming/qwerty layout where fn1 to type
-curve hex keycaps
-black pcb
-remove 2 pinkie keys
+separate square/rectangle more
+smaller hex spacing - for smaller hands
 
-+
+black pcb
+simple case
+
+curve hex keycaps, dimple on side for half-home keys - make sure it's not annoying for gaming
+stable keycap stems
+professionally made
+
+toggle gaming/qwerty layout where fn1 to type
+just qmk compatible for now
+
+===================+===================
 wireless
 thumb keys on side?
 latch 2 sides together, better case, rubber stand
@@ -26,23 +31,22 @@ program for customisable keys / layers
 common words hotkey
 F3+b
 fn ctrl j = move left fast
-hot swap
+hot swap option
 
-goals:
-* comfortable, easy to understand/use
+==============side thumbs==============
+for:
+more comfortable
+
+against:
+high profile
+more expensive
+harder to make case
+
+=================goals=================
+* comfortable, intuitive
 * usable, enough keys for gaming
 * quiet
 * low profile
 * tested
 * effective layout (comfortable, finger frequencies vs. min double tapping)
-
-
-for side thumbs:
-more comfortable
-
-against side thumbs:
-high profile
-more expensive
-harder to make case
-
 
