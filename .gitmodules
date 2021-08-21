@@ -25,3 +25,6 @@
 [submodule "v1/pcb/keyswitches.pretty"]
 	path = v1/pcb/keyswitches.pretty
 	url = https://gitlab.com/teamoskar/keyswitches.pretty.git
+[submodule "v1/pcb/kbd"]
+	path = v1/pcb/kbd
+	url = https://github.com/foostan/kbd.git
