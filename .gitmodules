@@ -10,3 +10,15 @@
 [submodule "pcb/MX_Alps_Hybrid"]
 	path = pcb/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid
+[submodule "v1/pcb/MX_Alps_Hybrid"]
+	path = v1/pcb/MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
+[submodule "v1/pcb/random-keyboard-parts.pretty"]
+	path = v1/pcb/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty.git
+[submodule "v1/pcb/keebio-components"]
+	path = v1/pcb/keebio-components
+	url = https://github.com/keebio/keebio-components.git
+[submodule "v1/pcb/Keebio-Parts.pretty"]
+	path = v1/pcb/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
