@@ -22,3 +22,6 @@
 [submodule "v1/pcb/Keebio-Parts.pretty"]
 	path = v1/pcb/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "v1/pcb/keyswitches.pretty"]
+	path = v1/pcb/keyswitches.pretty
+	url = https://gitlab.com/teamoskar/keyswitches.pretty.git
