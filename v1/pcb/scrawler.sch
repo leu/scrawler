@@ -41,7 +41,7 @@ U 1 1 612286A0
 P 1160 4145
 F 0 "J2" H 1191 4421 50  0000 C CNN
 F 1 "MJ-4PP-9" H 1191 4330 50  0000 C CNN
-F 2 "SofleKeyboard-footprint:MJ-4PP-9" H 1435 4320 50  0001 C CNN
+F 2 "kbd:MJ-4PP-9" H 1435 4320 50  0001 C CNN
 F 3 "~" H 1435 4320 50  0001 C CNN
 	1    1160 4145
 	1    0    0    -1  
@@ -481,15 +481,15 @@ Text GLabel 9500 1500 1    50   Input ~ 0
 COL4
 Text GLabel 10500 1500 1    50   Input ~ 0
 COL5
-Text GLabel 5400 2050 0    50   Input ~ 0
+Text GLabel 11100 2050 2    50   Input ~ 0
 ROW0
-Text GLabel 5400 2800 0    50   Input ~ 0
+Text GLabel 11100 2800 2    50   Input ~ 0
 ROW1
-Text GLabel 5400 3550 0    50   Input ~ 0
+Text GLabel 11100 3550 2    50   Input ~ 0
 ROW2
-Text GLabel 5400 4300 0    50   Input ~ 0
+Text GLabel 11100 4300 2    50   Input ~ 0
 ROW3
-Text GLabel 5400 5300 0    50   Input ~ 0
+Text GLabel 11100 5300 2    50   Input ~ 0
 ROW4
 Text GLabel 1695 1825 0    50   Input ~ 0
 DATA
@@ -1677,4 +1677,10 @@ F 3 "" H 7800 4750 50  0000 C CNN
 	1    7800 4750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10100 4300 11100 4300
+Connection ~ 10100 4300
+Wire Wire Line
+	9100 5300 11100 5300
+Connection ~ 9100 5300
 $EndSCHEMATC
