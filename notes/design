@@ -3,7 +3,7 @@ split
 hot swappable - try different switches
 
 =================v1.0==================
-new 1.0 layout
+1.0 layout
 no hot swap
 mega16u4 manually - check can fit program
 usb-c, trrs jack, mpu facing up in middle
@@ -16,12 +16,13 @@ smaller hex spacing - for smaller hands
 black pcb
 simple case
 
-curve hex keycaps, dimple on side for half-home keys - make sure it's not annoying for gaming
+curve hex keycaps! make them feel distinct
 stable keycap stems
-professionally made
+l.e.d.s
+white?
 
-toggle gaming/qwerty layout where fn1 to type
-just qmk compatible for now
+just qmk compatible for now to change layout
+one handed mode, gaming mode fn1 to type
 
 ===================+===================
 wireless
@@ -44,9 +45,6 @@ harder to make case
 
 =================goals=================
 * comfortable, intuitive
-* usable, enough keys for gaming
+* enough keys for gaming
 * quiet
-* low profile
-* tested
-* effective layout (comfortable, finger frequencies vs. min double tapping)
-
+* tested, effective layout

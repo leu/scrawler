@@ -1,22 +1,104 @@
-common game controls:
-
 ctrl
 shift
 space
 
 tab
 esc
-12+ other keys
+12+ other keys - no, can do whatever hotkey for ffxiv
 4 for move
 
 ========================================
 
-no super key
+shift on layer
+go on layer, hold shift key, let go of layer and still shift
+go on layer, tap shift key, can hold/tap next key for shift+key
 
-     shift |  ctrl        fn1 | fn2
-     -------------      -------------
-         space               alt
+========================================
 
+can appear non-last:
+ctrl
+alt
+shift
+super
+fn1
+fn2
+f3 (mc)
+
+last key only:
+alpha
+enter
+space
+backspace
+delete
+esc
+tab
+arrows
+
+========================================
+
+deadkeys
+for:
+separation of concerns
+pinkie more free
+ring doesnt need to cover for pinkie
+how many multiple modifiers anyway?
+
+against:
+quicker, easier to use pinkie for multiple modifiers
+space need to use pinkie for games
+
+nb:
+order agnostic
+
+========================================
+
+restraints:
+
+ctrl, alt, shift, super: 
+pinkie;
+it can do 2 easier
+
+fn1, fn2: 
+thumb;
+if you're not going for other thumb keys then going to another layer wont help (no modifiers on other layers)
+alternate hands;
+fn1 to type gaming, use both thumbs for more layers
+
+space, esc: on thumb;
+used most
+tab: on board;
+allows checking tab consequtively to jump-running
+
+========================================
+
+left hand:
+ctrl, shift;
+games
+fn1 thumb
+space, esc: on thumb
+tab: on board
+
+right hand:
+alt, super
+fn2 thumb
+backspace, enter: on thumb;
+unalphaish, used most
+delete: on board
+
+========================================
+
+most used keys for thumb:
+space: ~23,620
+backspace: 12,064
+enter: 6,586
+esc: 4,200
+tab: 1,561
+delete: 123
+fn1: ?
+fn2: ?
+
+
+========================================
 
 . 935
 _ 854
@@ -46,13 +128,14 @@ $ 37
 ~ 14
 £ 4
 
-< ?
-> ?
-# ?
-` ?
-- flags
+<
+>
+#
+`
+-
 0-9
 +
+super
 
 arrows
 home
@@ -62,15 +145,7 @@ pgup
 pgdown
 volume control
 
-
-
-
-
-optimise against worst case with one finger
-low double pressing
-middle and index fingers can cross over a lot - optimise for it
-
-consistently high keys in middle and index
+========================================
 
 [a, e, g, i, k, o, q, t, u, w, x, y, z] 53.94
 [a, e, g, i, j, k, o, q, t, u, w, x, y] 54.01
@@ -102,14 +177,4 @@ consistently high keys in middle and index
 [a, e, g, i, j, k, o, p, q, u, x, y, z] 45.28
 [a, e, g, i, j, k, o, q, t, u, x, y, z] 52.42
 [a, e, g, h, i, j, k, o, q, u, x, y, z] 48.19
-
-Process finished with exit code 0
-
-
-
-
-
-
-
-
 

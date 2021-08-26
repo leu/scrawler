@@ -1,29 +1,31 @@
-diodes                        x (plenty left)
-resistors                     x (plenty left 2.2k 10k)
-
-M2 standoffs, m2 screws
-keycaps
-
-
-
-mechboards:
-2 x trrs jacks                £2.50
-trrs wire                     £5.00
-delivery                      £2.50
-
 aliexpress:
-48 x kailh red choc switches  £31.12 avg
+25 x cherry mx switches = £7.92
+25 x diodes = £0.13
+2 x resistors = £0.007
+2 x pro micro = 
+1 x reset switch = 
+2 x trrs jacks = £0.10
+1 x trrs cable = £0.54
+1 x usb-c cable = £1.60
+screws = 
+spacers/standoffs = 
+rubber feet =
+(2 x oled = £2.58)
+(2 x rotary encoder = £3.64)
+(25 x hotswap = £2.29)
+(25 x 3mm led = £0.17)
+delivery = ~£8.56
+total = £22.76
+
+solutionsinplastic:
+custom keycaps = £xxx
+delivery = £xxx
 
 jlcpcb:
-2 x pcb                      ~£3.45
-delivery                      £2.15
-
-rs-online:
-2 x atmega16u4                £8.85
-2 x 16mhz crystal             £0.40
-usb-c connector               £0.96
-reset switch                  £0.554
-delivery                      £4.95
+2 x pcb = ~£3.452+
+delivery = £2.20
 
 plasticsheets:
-case                          £4.12
+cases = £xxx
+clear plastic = £xxx
+delivery = £xxx

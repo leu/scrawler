@@ -108,13 +108,9 @@ F 3 "" H 2850 5965 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3825 5865 2    50   Input ~ 0
-SW26A
+SW23A
 Text GLabel 3825 6065 2    50   Input ~ 0
-SW26B
-Text GLabel 8500 5000 2    50   Input ~ 0
-SW26A
-Text GLabel 9100 5000 2    50   Input ~ 0
-SW26B
+SW23B
 $Comp
 L keebio:Hole H1
 U 1 1 612F1FE8
@@ -1048,50 +1044,6 @@ F 3 "" H 10800 3250 50  0000 C CNN
 	1    10800 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L kbd:SW_PUSH SW23A1
-U 1 1 612C5BF5
-P 5800 4750
-F 0 "SW23A1" H 5800 4913 50  0000 C CNN
-F 1 "SW_PUSH" H 5800 4914 50  0001 C CNN
-F 2 "keyswitches:MX_reversible" H 5800 4750 50  0001 C CNN
-F 3 "" H 5800 4750 50  0000 C CNN
-	1    5800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SW_PUSH SW23B1
-U 1 1 612C5BFB
-P 5800 5000
-F 0 "SW23B1" H 5800 5163 50  0000 C CNN
-F 1 "SW_PUSH" H 5800 5164 50  0001 C CNN
-F 2 "keyswitches:PG1350_socket_reversible" H 5800 5000 50  0001 C CNN
-F 3 "" H 5800 5000 50  0000 C CNN
-	1    5800 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SW_PUSH SW24A1
-U 1 1 612C5C01
-P 6800 4750
-F 0 "SW24A1" H 6800 4913 50  0000 C CNN
-F 1 "SW_PUSH" H 6800 4914 50  0001 C CNN
-F 2 "keyswitches:MX_reversible" H 6800 4750 50  0001 C CNN
-F 3 "" H 6800 4750 50  0000 C CNN
-	1    6800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L kbd:SW_PUSH SW24B1
-U 1 1 612C5C07
-P 6800 5000
-F 0 "SW24B1" H 6800 5163 50  0000 C CNN
-F 1 "SW_PUSH" H 6800 5164 50  0001 C CNN
-F 2 "keyswitches:PG1350_socket_reversible" H 6800 5000 50  0001 C CNN
-F 3 "" H 6800 5000 50  0000 C CNN
-	1    6800 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 1500 5500 1750
 Connection ~ 5500 1750
@@ -1106,9 +1058,6 @@ Wire Wire Line
 Connection ~ 5500 3000
 Wire Wire Line
 	5500 3000 5500 3250
-Connection ~ 5500 3250
-Wire Wire Line
-	6500 5000 6500 4750
 Connection ~ 6500 1750
 Wire Wire Line
 	6500 1750 6500 1500
@@ -1129,7 +1078,6 @@ Wire Wire Line
 	6500 3750 6500 3250
 Wire Wire Line
 	6500 4000 6500 3750
-Connection ~ 6500 4750
 Wire Wire Line
 	7500 1500 7500 1750
 Connection ~ 7500 1750
@@ -1150,9 +1098,6 @@ Wire Wire Line
 Connection ~ 7500 3750
 Wire Wire Line
 	7500 3750 7500 4000
-Connection ~ 7500 4750
-Wire Wire Line
-	7500 4750 7500 5000
 Connection ~ 8500 1750
 Wire Wire Line
 	8500 1750 8500 1500
@@ -1466,62 +1411,7 @@ F 3 "~" H 10100 4150 50  0001 C CNN
 	1    10100 4150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5500 3250 5500 4750
-Wire Wire Line
-	5500 4750 5500 5000
-Connection ~ 5500 4750
-Wire Wire Line
-	6500 4000 6500 4750
-Connection ~ 6500 4000
-Wire Wire Line
-	7500 4000 7500 4750
-Connection ~ 7500 4000
 Connection ~ 8500 4000
-$Comp
-L Device:D D23
-U 1 1 6135B8FB
-P 6100 5150
-F 0 "D23" V 6146 5070 50  0000 R CNN
-F 1 "D" V 6055 5070 50  0000 R CNN
-F 2 "SofleKeyboard-footprint:Diode_SOD123" H 6100 5150 50  0001 C CNN
-F 3 "~" H 6100 5150 50  0001 C CNN
-	1    6100 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 6135C8E2
-P 7100 5150
-F 0 "D24" V 7146 5070 50  0000 R CNN
-F 1 "D" V 7055 5070 50  0000 R CNN
-F 2 "SofleKeyboard-footprint:Diode_SOD123" H 7100 5150 50  0001 C CNN
-F 3 "~" H 7100 5150 50  0001 C CNN
-	1    7100 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D25
-U 1 1 6135CE80
-P 8100 5150
-F 0 "D25" V 8146 5070 50  0000 R CNN
-F 1 "D" V 8055 5070 50  0000 R CNN
-F 2 "SofleKeyboard-footprint:Diode_SOD123" H 8100 5150 50  0001 C CNN
-F 3 "~" H 8100 5150 50  0001 C CNN
-	1    8100 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D26
-U 1 1 6135DC8A
-P 9100 5150
-F 0 "D26" V 9146 5070 50  0000 R CNN
-F 1 "D" V 9055 5070 50  0000 R CNN
-F 2 "SofleKeyboard-footprint:Diode_SOD123" H 9100 5150 50  0001 C CNN
-F 3 "~" H 9100 5150 50  0001 C CNN
-	1    9100 5150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6100 1500 6100 1750
 Connection ~ 6100 1750
@@ -1589,15 +1479,6 @@ Wire Wire Line
 	9100 3750 9100 4000
 Connection ~ 9100 4000
 Wire Wire Line
-	6100 4750 6100 5000
-Connection ~ 6100 5000
-Wire Wire Line
-	7100 4750 7100 5000
-Connection ~ 7100 5000
-Wire Wire Line
-	8100 4750 8100 5000
-Connection ~ 8100 5000
-Wire Wire Line
 	11100 2800 10100 2800
 Connection ~ 6100 2800
 Wire Wire Line
@@ -1633,9 +1514,6 @@ Wire Wire Line
 	10100 3550 9100 3550
 Wire Wire Line
 	10100 4300 9100 4300
-Connection ~ 7100 4300
-Wire Wire Line
-	7100 4300 5400 4300
 Connection ~ 8100 4300
 Wire Wire Line
 	8100 4300 7100 4300
@@ -1644,43 +1522,178 @@ Wire Wire Line
 	9100 4300 8100 4300
 Wire Wire Line
 	9100 5300 8100 5300
-Connection ~ 6100 5300
 Wire Wire Line
-	6100 5300 5400 5300
-Connection ~ 7100 5300
+	10100 4300 11100 4300
+Connection ~ 10100 4300
+Connection ~ 9100 5300
+$Comp
+L keebio:Hole H8
+U 1 1 61242DC5
+P 5225 6735
+F 0 "H8" H 5411 6788 60  0000 L CNN
+F 1 "Hole" H 5411 6682 60  0000 L CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 5225 6735 60  0001 C CNN
+F 3 "" H 5225 6735 60  0001 C CNN
+	1    5225 6735
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Hole H7
+U 1 1 61243782
+P 5895 6725
+F 0 "H7" H 6081 6778 60  0000 L CNN
+F 1 "Hole" H 6081 6672 60  0000 L CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 5895 6725 60  0001 C CNN
+F 3 "" H 5895 6725 60  0001 C CNN
+	1    5895 6725
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7100 5300 6100 5300
-Connection ~ 8100 5300
+	9100 5300 10100 5300
+Connection ~ 9100 5000
 Wire Wire Line
-	8100 5300 7100 5300
+	8500 4750 8500 5000
+Connection ~ 8500 4750
 Wire Wire Line
-	8500 4000 8500 5000
+	8500 4000 8500 4750
+Connection ~ 10100 5000
+Wire Wire Line
+	9500 4750 9500 5000
+Connection ~ 9500 4750
+Connection ~ 11100 5000
+Wire Wire Line
+	11100 5000 11100 4750
+Wire Wire Line
+	9500 4000 9500 4750
+Wire Wire Line
+	10500 4750 10500 5000
+Connection ~ 10500 4750
+$Comp
+L kbd:SW_PUSH SW26A1
+U 1 1 612C5C0D
+P 10800 4750
+F 0 "SW26A1" H 10800 4913 50  0000 C CNN
+F 1 "SW_PUSH" H 10800 4914 50  0001 C CNN
+F 2 "keyswitches:MX_reversible" H 10800 4750 50  0001 C CNN
+F 3 "" H 10800 4750 50  0000 C CNN
+	1    10800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26B1
+U 1 1 612C5C13
+P 10800 5000
+F 0 "SW26B1" H 10800 5163 50  0000 C CNN
+F 1 "SW_PUSH" H 10800 5164 50  0001 C CNN
+F 2 "keyswitches:PG1350_socket_reversible" H 10800 5000 50  0001 C CNN
+F 3 "" H 10800 5000 50  0000 C CNN
+	1    10800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4750 10100 5000
+Wire Wire Line
+	9100 4750 9100 5000
+$Comp
+L Device:D D26
+U 1 1 6135DC8A
+P 11100 5150
+F 0 "D26" V 11146 5070 50  0000 R CNN
+F 1 "D" V 11055 5070 50  0000 R CNN
+F 2 "SofleKeyboard-footprint:Diode_SOD123" H 11100 5150 50  0001 C CNN
+F 3 "~" H 11100 5150 50  0001 C CNN
+	1    11100 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 6135CE80
+P 10100 5150
+F 0 "D25" V 10146 5070 50  0000 R CNN
+F 1 "D" V 10055 5070 50  0000 R CNN
+F 2 "SofleKeyboard-footprint:Diode_SOD123" H 10100 5150 50  0001 C CNN
+F 3 "~" H 10100 5150 50  0001 C CNN
+	1    10100 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 6135C8E2
+P 9100 5150
+F 0 "D24" V 9146 5070 50  0000 R CNN
+F 1 "D" V 9055 5070 50  0000 R CNN
+F 2 "SofleKeyboard-footprint:Diode_SOD123" H 9100 5150 50  0001 C CNN
+F 3 "~" H 9100 5150 50  0001 C CNN
+	1    9100 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 6135B8FB
+P 8100 5150
+F 0 "D23" V 8146 5070 50  0000 R CNN
+F 1 "D" V 8055 5070 50  0000 R CNN
+F 2 "SofleKeyboard-footprint:Diode_SOD123" H 8100 5150 50  0001 C CNN
+F 3 "~" H 8100 5150 50  0001 C CNN
+	1    8100 5150
+	0    -1   -1   0   
+$EndComp
 $Comp
 L kbd:SW_PUSH SW25B1
-U 1 1 612C5C13
-P 7800 5000
-F 0 "SW25B1" H 7800 5163 50  0000 C CNN
-F 1 "SW_PUSH" H 7800 5164 50  0001 C CNN
-F 2 "keyswitches:PG1350_socket_reversible" H 7800 5000 50  0001 C CNN
-F 3 "" H 7800 5000 50  0000 C CNN
-	1    7800 5000
+U 1 1 612C5C07
+P 9800 5000
+F 0 "SW25B1" H 9800 5163 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 5164 50  0001 C CNN
+F 2 "keyswitches:PG1350_socket_reversible" H 9800 5000 50  0001 C CNN
+F 3 "" H 9800 5000 50  0000 C CNN
+	1    9800 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L kbd:SW_PUSH SW25A1
-U 1 1 612C5C0D
-P 7800 4750
-F 0 "SW25A1" H 7800 4913 50  0000 C CNN
-F 1 "SW_PUSH" H 7800 4914 50  0001 C CNN
-F 2 "keyswitches:MX_reversible" H 7800 4750 50  0001 C CNN
-F 3 "" H 7800 4750 50  0000 C CNN
-	1    7800 4750
+U 1 1 612C5C01
+P 9800 4750
+F 0 "SW25A1" H 9800 4913 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 4914 50  0001 C CNN
+F 2 "keyswitches:MX_reversible" H 9800 4750 50  0001 C CNN
+F 3 "" H 9800 4750 50  0000 C CNN
+	1    9800 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L kbd:SW_PUSH SW24B1
+U 1 1 612C5BFB
+P 8800 5000
+F 0 "SW24B1" H 8800 5163 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 5164 50  0001 C CNN
+F 2 "keyswitches:PG1350_socket_reversible" H 8800 5000 50  0001 C CNN
+F 3 "" H 8800 5000 50  0000 C CNN
+	1    8800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24A1
+U 1 1 612C5BF5
+P 8800 4750
+F 0 "SW24A1" H 8800 4913 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 4914 50  0001 C CNN
+F 2 "keyswitches:MX_reversible" H 8800 4750 50  0001 C CNN
+F 3 "" H 8800 4750 50  0000 C CNN
+	1    8800 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 5000 2    50   Input ~ 0
+SW23B
+Text GLabel 7500 5000 2    50   Input ~ 0
+SW23A
+Connection ~ 9500 4000
+Connection ~ 10100 5300
 Wire Wire Line
-	10100 4300 11100 4300
-Connection ~ 10100 4300
+	10100 5300 11100 5300
 Wire Wire Line
-	9100 5300 11100 5300
-Connection ~ 9100 5300
+	10500 3250 10500 4750
+Connection ~ 10500 3250
+Wire Wire Line
+	7500 5000 7500 4000
+Connection ~ 7500 4000
 $EndSCHEMATC
