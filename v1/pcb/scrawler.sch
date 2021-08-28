@@ -25,10 +25,10 @@ F 3 "" H 2495 1225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW26
+L Device:Rotary_Encoder_Switch SW23
 U 1 1 6122561E
 P 3525 5965
-F 0 "SW26" H 3525 6332 50  0000 C CNN
+F 0 "SW23" H 3525 6332 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3525 6241 50  0000 C CNN
 F 2 "SofleKeyboard-footprint:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified" H 3375 6125 50  0001 C CNN
 F 3 "~" H 3525 6225 50  0001 C CNN
