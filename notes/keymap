@@ -178,3 +178,78 @@ volume control
 [a, e, g, i, j, k, o, q, t, u, x, y, z] 52.42
 [a, e, g, h, i, j, k, o, q, u, x, y, z] 48.19
 
+========================================
+
+22 per hand per layer
+a-z = 26
+A-Z = 26
+0-9 = 10
+`|\!"£$%^&*()-_=+[]{};'#:@~,./<>? - 33
+total = 95 keys, 5 hands
+
+space, enter, backspace, del, esc, tab, pgup, pgdown, home, end, 4 arrows, prtsc, f1-f14 = 29
+shortcuts = a lot
+shift, ctrl, super, alt = 4
+
+ctrl-backspace
+
+
+max 9 layers inc no layer
+
+thumbs:
+space, backspace = 2
+layers = 4
+
+
+typing:
+a-z = 26
+
+uppercase:
+A-Z = 26
+
+symbols:
+|&!£$()[]{}<>;:"',.?#~@_\` = 26
+
+maths:
+%*/-+=^ = 7
+0-9 = 10
+
+control keys:
+pgup, pgdown, home, end, 4 arrows = 8
+enter, del = 2
+esc, tab, prtsc = 3
+
+program keys:
+f1-f24 = 24
+
+hotkeys:
+hotkeys = 26
+
+hotkeys 2:
+hotkeys = 26
+
+hotkeys 3:
+hotkeys = 26
+
+=====================================
+
+gaming
+       
+         up
+    shift    left
+tab      down
+    ctrl     right
+esc
+                    space
+                          layer1
+                                layer2
+
+
+
+
+
+
+
+
+
+

@@ -5,13 +5,13 @@ hot swappable - try different switches
 =================v1.0==================
 1.0 layout
 no hot swap
-mega16u4 manually - check can fit program
 usb-c, trrs jack, mpu facing up in middle
 2 switches for rectangle
 cut down on pcb area
 smaller thumb keys, rotate
 separate square/rectangle more
 smaller hex spacing - for smaller hands
+first just donations on github
 
 black pcb
 simple case
@@ -33,6 +33,7 @@ common words hotkey
 F3+b
 fn ctrl j = move left fast
 hot swap option
+mega32u4 manually
 
 ==============side thumbs==============
 for:
