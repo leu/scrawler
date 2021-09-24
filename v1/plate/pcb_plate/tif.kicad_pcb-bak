@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 133)
+    (drawings 137)
     (tracks 118)
     (zones 0)
     (modules 22)
@@ -903,6 +903,12 @@
     )
   )
 
+  (gr_arc (start 202.2 102.6127) (end 203.2 102.6127) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 173.974 101.33) (end 202.2 101.6127) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 173.974 100.33) (end 172.974 100.33) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 203.2 102.6127) (end 203.196861 122.597659) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 171.974 55.356) (end 172.974 55.356) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 172.974 55.356) (end 172.974 100.33) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 203.4295 146.3072) (end 215.5539 139.3072) (layer Edge.Cuts) (width 0.05) (tstamp 614E0E1C))
   (gr_line (start 210.4295 158.4316) (end 203.4295 146.3072) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 222.5539 151.4316) (end 210.4295 158.4316) (layer Edge.Cuts) (width 0.05))
@@ -1012,7 +1018,6 @@
   )
   (gr_arc (start 165.658799 48.006001) (end 162.4838 53.5051) (angle -30.00072778) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 136.398 38.429188) (end 162.4838 53.5051) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 202.311 55.245) (end 203.2 55.245) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 151.7396 128.4478) (end 148.9456 133.2865) (angle -30.00333245) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 130.048001 128.831929) (end 132.842 123.9901) (angle -29.98729699) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 121.0691 128.8288) (end 121.0691 123.2408) (angle -30.00333245) (layer Edge.Cuts) (width 0.05))
@@ -1034,8 +1039,7 @@
   (gr_arc (start 166.751 175.5394) (end 207.6323 162.2425) (angle -56.87886571) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 151.7396 134.035237) (end 177.9524 134.0358) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 66.688815 66.3702) (end 114.999584 38.508192) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 165.658799 54.35586) (end 202.311 54.356) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 203.2 55.245) (end 203.196861 122.597659) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 165.658799 54.35586) (end 171.974 54.356) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 210.564542 163.394934) (end 225.6155 154.7114) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 65.024 69.2531) (end 65.024 120.8151) (layer Edge.Cuts) (width 0.05))
 
