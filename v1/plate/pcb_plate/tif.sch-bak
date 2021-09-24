@@ -25,10 +25,10 @@ F 3 "" H 2495 1225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch SW26
+L Device:Rotary_Encoder_Switch SW23
 U 1 1 6122561E
 P 3525 5965
-F 0 "SW26" H 3525 6332 50  0000 C CNN
+F 0 "SW23" H 3525 6332 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 3525 6241 50  0000 C CNN
 F 2 "SofleKeyboard-footprint:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified" H 3375 6125 50  0001 C CNN
 F 3 "~" H 3525 6225 50  0001 C CNN
@@ -117,7 +117,7 @@ U 1 1 612F1FE8
 P 6000 6000
 F 0 "H1" H 6186 6053 60  0000 L CNN
 F 1 "Hole" H 6186 5947 60  0000 L CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 6000 6000 60  0001 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 6000 6000 60  0001 C CNN
 F 3 "" H 6000 6000 60  0001 C CNN
 	1    6000 6000
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 612F6082
 P 6600 6000
 F 0 "H2" H 6786 6053 60  0000 L CNN
 F 1 "Hole" H 6786 5947 60  0000 L CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 6600 6000 60  0001 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 6600 6000 60  0001 C CNN
 F 3 "" H 6600 6000 60  0001 C CNN
 	1    6600 6000
 	1    0    0    -1  
@@ -139,7 +139,7 @@ U 1 1 612F683B
 P 7200 6000
 F 0 "H3" H 7386 6053 60  0000 L CNN
 F 1 "Hole" H 7386 5947 60  0000 L CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 7200 6000 60  0001 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 7200 6000 60  0001 C CNN
 F 3 "" H 7200 6000 60  0001 C CNN
 	1    7200 6000
 	1    0    0    -1  
@@ -150,7 +150,7 @@ U 1 1 612F74B1
 P 7800 6000
 F 0 "H4" H 7986 6053 60  0000 L CNN
 F 1 "Hole" H 7986 5947 60  0000 L CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 7800 6000 60  0001 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 7800 6000 60  0001 C CNN
 F 3 "" H 7800 6000 60  0001 C CNN
 	1    7800 6000
 	1    0    0    -1  
@@ -161,7 +161,7 @@ U 1 1 612F7C28
 P 8400 6000
 F 0 "H5" H 8586 6053 60  0000 L CNN
 F 1 "Hole" H 8586 5947 60  0000 L CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 8400 6000 60  0001 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 8400 6000 60  0001 C CNN
 F 3 "" H 8400 6000 60  0001 C CNN
 	1    8400 6000
 	1    0    0    -1  
@@ -172,7 +172,7 @@ U 1 1 612F858D
 P 9000 6000
 F 0 "H6" H 9186 6053 60  0000 L CNN
 F 1 "Hole" H 9186 5947 60  0000 L CNN
-F 2 "SofleKeyboard-footprint:HOLE_M2_TH" H 9000 6000 60  0001 C CNN
+F 2 "SofleKeyboard-footprint:M2_HOLE_PCB" H 9000 6000 60  0001 C CNN
 F 3 "" H 9000 6000 60  0001 C CNN
 	1    9000 6000
 	1    0    0    -1  
