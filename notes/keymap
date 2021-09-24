@@ -222,11 +222,45 @@ esc, tab, prtsc = 3
 program keys:
 f1-f24 = 24
 
-hotkeys:
-hotkeys = 26
+words:
+that
+have
+with
+this
+from
+they
+will
+would
+there
+their
+what
+about
+which
+when
+make
+like
+time
+just
+know
+take
+people
+into
+year
+your
+good
+because
 
-hotkeys 2:
-hotkeys = 26
+programming words:
+byte
+short
+int
+long
+float
+double
+boolean
+char
+String
+
 
 hotkeys 3:
 hotkeys = 26
@@ -244,7 +278,9 @@ esc
                           layer1
                                 layer2
 
-
+at least 12 for 3 ffxiv spell layers
+13 amount of alphabet
+13 perfect
 
 
 
