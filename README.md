@@ -1,5 +1,5 @@
 # The Scrawler
-The name of this keyboard is the Scrawler
+The name of this keyboard is the Scrawler.
 
 It was inspired by this YouTube video: https://www.youtube.com/watch?v=thOifuHs6eY. It was born of wanting to experiment with a hexagonal tiling layout for keyboards. I currently have no plans to continue work on this project, as it is time consuming and many of the challenges are in the domain of material science and physical design, and I would rather spend my time in my personal specialisation of programming and computer science. But in case you have any questions, feel free to reach out to me at in.lieu.of.leu@gmail.com!
 
